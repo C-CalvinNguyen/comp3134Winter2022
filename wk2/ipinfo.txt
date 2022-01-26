@@ -1,0 +1,73 @@
+Checking Domain Name
+
+Domain Name: twitch.tv
+
+Top Level Domain: TV (Tuvalu)
+
+DNS Lookup
+
+IP Address: 151.101.66.167
+
+Geolocation: US (United States), CA, California, 94107 San Francisco - Google Maps
+
+Reverse DNS entry: not found
+
+
+Checking Domain Name
+
+Domain Name: youtube.com
+
+Top Level Domain: COM (Commercial TLD)
+
+DNS Lookup
+
+IP Address: 142.250.80.14
+
+Geolocation: US (United States), CA, California, 94043 Mountain View - Google Maps
+
+Reverse DNS: lga34s33-in-f14.1e100.net
+
+
+Checking Domain Name
+
+Domain Name: wikipedia.org
+
+Top Level Domain: ORG (Organization)
+
+DNS Lookup
+
+IP Address: 208.80.154.224
+
+Geolocation: US (United States), CA, California, 94105 San Francisco - Google Maps
+
+Reverse DNS: text-lb.eqiad.wikimedia.org
+
+
+Checking Domain Name
+
+Domain Name: yahoo.com
+
+Top Level Domain: COM (Commercial TLD)
+
+DNS Lookup
+
+IP Address: 74.6.143.26
+
+Geolocation: US (United States), CA, California, 94089 Sunnyvale - Google Maps
+
+Reverse DNS: media-router-fp74.prod.media.vip.bf1.yahoo.com
+
+
+Checking Domain Name
+
+Domain Name: netflix.com
+
+Top Level Domain: COM (Commercial TLD)
+
+DNS Lookup
+
+IP Address: 54.237.226.164
+
+Geolocation: US (United States), VA, Virginia, 20149 Ashburn - Google Maps
+
+Reverse DNS: ec2-54-237-226-164.compute-1.amazonaws.com

@@ -1,0 +1,8 @@
+root@comp3134-winter2022:~# tcpdump -A -i eth0
+.k..e.Y*..m...F..<vL./.<.D;..v:4..V+A.G...AGva........
+20:46:10.267426 IP comp3134-winter2022.ssh > cpe2cfda1364c40-cm5c7d7dc6b0b6.cpe.net.cable.rogers.com.50322: Flags [P.], seq 9018168:9018628, ack 4897, win 501, length 460
+E.../.@.@......Rc.*y.......5>..BP.......Wp....]..`Dl..&....R..g...4.2...M-.....C......wO.\.H.PMH....%V.l...s..Zb5.-.9...Y..BI..].*.c.............at.b..b.#)..r.B....C..K...nx..W.....f.9+..vQ&..Ov...;............B' ..      B..l.T.7.c..1:..g.......h..5t>}..=....](...~......./.c.c......7..L.Sg..K.l/p.y.....o..J...(|?.../.c.0S....*.%.C...%.v.I...=..&..e.%H.....&Lm....Y. HD.*gg)\D.KB.<.....UV...w.....;.XX+..Y^.).............Z.q&jAE.>.......Q.}..d..>....o..(.@.V({.{.c$UP....;%BKI......s.....[.&N_Dvq.(T.....
+^C
+11279 packets captured
+25394 packets received by filter
+14083 packets dropped by kernel

@@ -1,0 +1,30 @@
+root@comp3134-winter2022:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+20:48:41.203556 IP comp3134-winter2022.ssh > cpe2cfda1364c40-cm5c7d7dc6b0b6.cpe.net.cable.rogers.com.50322: Flags [P.], seq 3933868741:3933868777, ack 1056170178, win 501, length 36
+20:48:41.204639 IP comp3134-winter2022.ssh > cpe2cfda1364c40-cm5c7d7dc6b0b6.cpe.net.cable.rogers.com.50322: Flags [P.], seq 36:80, ack 1, win 501, length 44
+20:48:41.204699 IP comp3134-winter2022.ssh > cpe2cfda1364c40-cm5c7d7dc6b0b6.cpe.net.cable.rogers.com.50322: Flags [P.], seq 80:188, ack 1, win 501, length 108
+20:48:41.204730 IP comp3134-winter2022.ssh > cpe2cfda1364c40-cm5c7d7dc6b0b6.cpe.net.cable.rogers.com.50322: Flags [P.], seq 188:224, ack 1, win 501, length 36
+20:48:41.216957 IP cpe2cfda1364c40-cm5c7d7dc6b0b6.cpe.net.cable.rogers.com.50322 > comp3134-winter2022.ssh: Flags [.], ack 224, win 4116, length 0
+20:48:41.290579 IP comp3134-winter2022.ssh > 218.92.0.207.10076: Flags [S.], seq 930626479, ack 4198072513, win 65160, options [mss 1460,sackOK,TS val 3064557211 ecr 1109949775,nop,wscale 7], length 0
+20:48:42.672104 IP 218.92.0.207.47842 > comp3134-winter2022.ssh: Flags [FP.], seq 4276697544:4276697568, ack 2453822916, win 229, options [nop,nop,TS val 1109952394 ecr 3064553359], length 24
+20:48:43.135895 IP 218.92.0.207.47842 > comp3134-winter2022.ssh: Flags [FP.], seq 0:24, ack 1, win 229, options [nop,nop,TS val 1109952510 ecr 3064553359], length 24
+20:48:43.135940 IP comp3134-winter2022.ssh > 218.92.0.207.47842: Flags [.], ack 4294966425, win 510, options [nop,nop,TS val 3064559056 ecr 1109951083,nop,nop,sack 1 {0:25}], length 0
+20:48:43.247128 ARP, Request who-has comp3134-winter2022 tell _gateway, length 46
+20:48:43.247147 ARP, Reply comp3134-winter2022 is-at be:c8:d1:1f:4f:3d (oui Unknown), length 28
+20:48:43.423523 IP 218.92.0.207.47842 > comp3134-winter2022.ssh: Flags [P.], seq 4294966425:0, ack 1, win 229, options [nop,nop,TS val 1109952582 ecr 3064559056], length 871
+20:48:43.423576 IP comp3134-winter2022.ssh > 218.92.0.207.47842: Flags [.], ack 25, win 503, options [nop,nop,TS val 3064559344 ecr 1109952582], length 0
+20:48:43.424862 IP comp3134-winter2022.ssh > 218.92.0.207.47842: Flags [P.], seq 1:1057, ack 25, win 503, options [nop,nop,TS val 3064559345 ecr 1109952582], length 1056
+20:48:43.427945 IP comp3134-winter2022.ssh > 218.92.0.207.47842: Flags [F.], seq 1057, ack 25, win 503, options [nop,nop,TS val 3064559348 ecr 1109952582], length 0
+20:48:43.652850 IP 218.92.0.207.47842 > comp3134-winter2022.ssh: Flags [R], seq 4276697569, win 0, length 0
+20:48:43.656716 IP 218.92.0.207.47842 > comp3134-winter2022.ssh: Flags [R], seq 4276697569, win 0, length 0
+20:48:44.618585 IP comp3134-winter2022.ssh > 218.92.0.207.26619: Flags [S.], seq 1439830941, ack 1075995641, win 65160, options [mss 1460,sackOK,TS val 3064560539 ecr 1109948524,nop,wscale 7], length 0
+20:48:44.643916 IP debase.0004449999.wkl.61953 > comp3134-winter2022.9400: Flags [S], seq 2870243396, win 1024, length 0
+20:48:44.858979 IP 218.92.0.207.26619 > comp3134-winter2022.ssh: Flags [R], seq 1075995641, win 0, length 0
+20:48:47.199850 IP mail.bellnw.com.65062 > comp3134-winter2022.ssh: Flags [S], seq 2083199765, win 64240, options [mss 1460,sackOK,nop,nop,nop,nop,nop,nop,nop,nop,nop,nop,nop,wscale 7], length 0
+20:48:47.199908 IP comp3134-winter2022 > mail.bellnw.com: ICMP comp3134-winter2022 tcp port ssh unreachable, length 68
+20:48:47.957490 IP 192.144.216.91.40238 > comp3134-winter2022.ssh: Flags [S], seq 890408067, win 14600, options [mss 1424,sackOK,TS val 3872053152 ecr 0,nop,wscale 7], length 0
+20:48:47.957551 IP comp3134-winter2022.ssh > 192.144.216.91.40238: Flags [S.], seq 2027221944, ack 890408068, win 65160, options [mss 1460,sackOK,TS val 2052805909 ecr 3872053152,nop,wscale 7], length 0
+20:48:48.188270 IP 192.144.216.91.40238 > comp3134-winter2022.ssh: Flags [.], ack 1, win 115, options [nop,nop,TS val 3872053383 ecr 2052805909], length 0
+20:48:48.198786 IP comp3134-winter2022.ssh > 192.144.216.91.40238: Flags [P.], seq 1:42, ack 1, win 510, options [nop,nop,TS val 2052806151 ecr 3872053383], length 41
+20:48:48.215922 IP mail.bellnw.com.65062 > comp3134-winter2022.ssh: Flags [S], seq 2083199765, win 64240, options [mss 1460,sackOK,TS val 1978207280 ecr 0,nop,wscale 7], length 0
+20:48:48.215978 IP comp3134-winter2022 > mail.bellnw.com: ICMP comp3134-winter2022 tcp port ssh unreachable, length 68

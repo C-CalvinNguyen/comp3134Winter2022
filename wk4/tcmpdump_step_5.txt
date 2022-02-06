@@ -1,0 +1,12 @@
+root@comp3134-winter2022:~# tcpdump -XX -i eth0
+ 0x4440:  4b8b f1fe 38d3 c277 7877 77fa c1bf 78da  K...8..wxww...x.
+        0x4450:  9bb6 3a8e f01a 137e 05d0 e1a4 f04c 48ca  ..:....~.....LH.
+        0x4460:  505f 0365 6b0f 30b7 ee4a d7e8 3fdc b360  P_.ek.0..J..?..`
+        0x4470:  63f4 f68c 1b12 e1da 696c aead f9ee cfbe  c.......il......
+        0x4480:  ab9e 3e2e 9cb0 3b00 fc47 5d6f 258c 6b37  ..>...;..G]o%.k7
+        0x4490:  ad06 9f92 3b1e 5ae9 e604 aaf4 4f12 d6b0  ....;.Z.....O...
+        0x44a0:  e0fc 01ca e230                           .....0
+
+1791 packets captured
+18963 packets received by filter
+17141 packets dropped by kernel

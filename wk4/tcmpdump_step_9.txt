@@ -1,0 +1,12 @@
+root@comp3134-winter2022:~# tcpdump -i eth0 tcp
+20:50:15.061495 IP comp3134-winter2022.ssh > cpe2cfda1364c40-cm5c7d7dc6b0b6.cpe.net.cable.rogers.com.50322: Flags [P.], seq 3558296:3558508, ack 2089, win 501, length 212
+20:50:15.061551 IP comp3134-winter2022.ssh > cpe2cfda1364c40-cm5c7d7dc6b0b6.cpe.net.cable.rogers.com.50322: Flags [P.], seq 3558508:3558720, ack 2089, win 501, length 212
+20:50:15.061610 IP comp3134-winter2022.ssh > cpe2cfda1364c40-cm5c7d7dc6b0b6.cpe.net.cable.rogers.com.50322: Flags [P.], seq 3558720:3558932, ack 2089, win 501, length 212
+20:50:15.061663 IP comp3134-winter2022.ssh > cpe2cfda1364c40-cm5c7d7dc6b0b6.cpe.net.cable.rogers.com.50322: Flags [P.], seq 3558932:3559144, ack 2089, win 501, length 212
+20:50:15.061723 IP comp3134-winter2022.ssh > cpe2cfda1364c40-cm5c7d7dc6b0b6.cpe.net.cable.rogers.com.50322: Flags [P.], seq 3559144:3559356, ack 2089, win 501, length 212
+20:50:15.061771 IP cpe2cfda1364c40-cm5c7d7dc6b0b6.cpe.net.cable.rogers.com.50322 > comp3134-winter2022.ssh: Flags [P.], seq 2089:2125, ack 3506112, win 4113, length 36
+20:50:15.061771 IP cpe2cfda1364c40-cm5c7d7dc6b0b6.cpe.net.cable.rogers.com.50322 > comp3134-winter2022.ssh: Flags [.], ack 3536036, win 4117, length 0
+^C
+17021 packets captured
+17022 packets received by filter
+0 packets dropped by kernel

@@ -1,0 +1,3 @@
+I see an html directory.
+
+The user can go to the web root of the droplet.

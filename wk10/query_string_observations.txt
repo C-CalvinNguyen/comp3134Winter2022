@@ -1,0 +1,12 @@
+1) When I submit the form with a valid english word, the url parameters changed from
+https://www.dictionary.com/browse/cybersecurity to https://www.dictionary.com/browse/test
+
+2) When I type an invalid English word, I am sent to a different route mispelling with the query "term"
+https://www.dictionary.com/misspelling?term=aiodjaiodjwa
+
+3) When I type <script>alert(%27hello%27)</script> I am sent to a different route "noresult".
+https://www.dictionary.com/noresult?term=%3Cscript%3Ealert(%27hello%27)%3C%2Fscript%3E , 
+so this is different when there is html code sent
+
+4) When <script>alert(%27hello%27)</script> is inserted into the URL query term= the search form shows
+<script>alert('hello')</script>

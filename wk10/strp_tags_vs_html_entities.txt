@@ -1,0 +1,3 @@
+strip tags removes any html or php tags from the string while
+
+html entities converts html tags into an the equivalant html entity

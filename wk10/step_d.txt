@@ -1,0 +1,5 @@
+the function scandir() is being called with the passed query "hello", 
+however their is no file or directory in the location /var/www/html/directory_traversal_part1.php
+
+the sensitive information given by this page is that the hello directory does not exist 
+but that we can also scan for other files or directories by passing queries.

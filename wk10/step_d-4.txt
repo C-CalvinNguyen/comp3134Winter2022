@@ -1,0 +1,4 @@
+We can see the file directory of the droplet.
+
+the php file exposes the file directories and 
+allows a user to traverse and view folders and files.

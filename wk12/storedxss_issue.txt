@@ -1,0 +1,3 @@
+The contents of the storedxss.txt file is read and run (php echo)
+<script>document.location.href=”/directory_traversal_part1.php”</script>
+it changes the current browser page to the directory_traversal_part1.php

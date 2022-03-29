@@ -1,0 +1,15 @@
+Inserting Ben into the getusers_1.php form returns me the SQL Query results in nothing
+since active was set to 0
+
+Inserting Ben’-- results in nothing returned.
+
+Inserting Ben’ or 1=1 results in nothing returned
+
+my variable was $sqli = 'SELECT * FROM users WHERE active = 1 AND firstname = "'. $_POST['firstname'] .'"';
+
+	$result = mysqli_query($conn, $sqli);
+        if (mysqli_num_rows($result) > 0) {
+                while($row = mysqli_fetch_assoc($result)) {
+                echo "ID" . $row['id']. ' FIRSTNAME: '. $row['firstname']. 'ACT>
+                }
+        }
